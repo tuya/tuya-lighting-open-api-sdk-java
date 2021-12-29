@@ -55,7 +55,7 @@ public class Main {
 ```
 
 ## 文档
-[涂鸦商用照明 SaaS Open API 文档](https://developer.tuya.com/en/docs/iot/light?id=Ka65xlpme0eoz)
+[涂鸦商用照明 SaaS Open API 文档](https://developer.tuya.com/cn/docs/iot/light?id=Ka65xlpme0eoz)
 
 ## 技术支持
 [提交 Issue](https://github.com/tuya/tuya-lighting-open-api-sdk-java/issues/new)
