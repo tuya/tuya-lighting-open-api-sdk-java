@@ -11,7 +11,7 @@ If you have any questions in use, [submit an issue](https://github.com/tuya/tuya
 ## Prerequisites
 
 - To use this SDK for Java, you must first create an account of Tuya's commercial lighting SaaS.
-- Also, you must get an `AccessKey ID` and an `AccessKey Secret`. Create a project on the [IoT Development Platform](https://iot.tuya.com/cloud/) and view the **Authorization Key** on the details page of the project.
+- Also, you must get an `AccessKey ID` and an `AccessKey Secret`. Create a project on the [Tuya IoT Development Platform](https://iot.tuya.com/cloud/) and view the **Authorization Key** on the details page of the project.
 
 ## Install dependency
 
@@ -58,7 +58,7 @@ public class Main {
 
 ## Documentation
 
-For more information about documentation, see [Tuya Open APIs for Commercial Lighting SaaS](https://developer.tuya.com/cn/docs/iot/light?id=Ka65xlpme0eoz).
+For more information about documentation, see [Tuya Open APIs for Commercial Lighting SaaS](https://developer.tuya.com/en/docs/iot/light?id=Ka65xlpme0eoz).
 
 ## Technical support
 
