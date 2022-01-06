@@ -1,21 +1,22 @@
-English | [简体中文](./README_cn.md)
+[English](./README.md) | 简体中文
 
-## Tuya Lighting SaaS Open API Java SDK
+# Tuya Commercial Lighting SaaS Open API SDK for Java
 
-This Java SDK for Tuya Lighting SaaS Open API allows you to access Tuya Lighting SaaS Open API easily. You can access Tuya Lighting SaaS Open API without the need to handle API related tasks, such as signing and constructing your requests.
+This SDK for Java allows you to quickly access the open APIs of Tuya's commercial lighting SaaS. You do not need to handle tasks such as signing and constructing your requests.
 
-This document introduces how to obtain and call Tuya Lighting SaaS Open API Java SDK.
+This topic describes how to install and use this SDK for Java.
 
-If you have any problem while using Tuya Lighting SaaS Open API Java SDK, please [submit an issue](https://github.com/tuya/tuya-lighting-open-api-sdk-java/issues/new).
+If you have any questions in use, [submit an issue](https://github.com/tuya/tuya-lighting-open-api-sdk-java/issues/new).
 
-## Requirement
+## Prerequisites
 
-- To use Tuya Lighting SaaS Open API Java SDK, you must have a Tuya Lighting SaaS account
-- To use Tuya Lighting SaaS Open API Java SDK, you must have an `AccessKey ID` and an `AccessKey Secret`. Create and view your AccessKey on [IoT core console](https://iot.tuya.com/cloud/)
+- To use this SDK for Java, you must first create an account of Tuya's commercial lighting SaaS.
+- Also, you must get an `AccessKey ID` and an `AccessKey Secret`. Create a project on the [IoT Development Platform](https://iot.tuya.com/cloud/) and view the **Authorization Key** on the details page of the project.
 
-## Installation
+## Install dependency
 
-If you put `lighting-open-api-java-sdk-{version}.jar` in folder `${project.basedir}/lib`, you need to add these dependencies in the pom.xml file, or a NoClassDefFoundError exception will be reported.
+If you put `lighting-open-api-java-sdk-{version}.jar` into the directory `${project.basedir}/lib`, you need to add the following dependencies to the `pom.xml` file. Otherwise, the error message `NoClassDefFoundError` will be returned.
+
 ```xml
 <dependency>
     <groupId>com.tuya</groupId>
@@ -36,7 +37,8 @@ If you put `lighting-open-api-java-sdk-{version}.jar` in folder `${project.based
 </dependency>
 ```
 
-## Quick Start
+## Quick start
+
 ```java
 public class Main {
     public static void main(String[]args){
@@ -55,10 +57,13 @@ public class Main {
 ```
 
 ## Documentation
-[Tuya Lighting SaaS Open API Doc](https://developer.tuya.com/en/docs/iot/light?id=Ka65xlpme0eoz)
 
-## Support
-[Opening an Issue](https://github.com/tuya/tuya-lighting-open-api-sdk-java/issues/new)
+For more information about documentation, see [Tuya Open APIs for Commercial Lighting SaaS](https://developer.tuya.com/cn/docs/iot/light?id=Ka65xlpme0eoz).
+
+## Technical support
+
+[Submit an issue](https://github.com/tuya/tuya-lighting-open-api-sdk-java/issues/new).
 
 ## License
-This Tuya Lighting SaaS Open API Java SDK is licensed under the MIT License.
+
+The MIT license applies to this SDK for Java.
