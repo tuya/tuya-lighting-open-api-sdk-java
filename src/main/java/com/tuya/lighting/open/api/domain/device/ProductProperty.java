@@ -12,6 +12,11 @@ import java.util.List;
 public class ProductProperty {
 
     /**
+     * dp ID
+     */
+    private Integer dpId;
+
+    /**
      * dp code
      */
     private String dpCode;
@@ -45,6 +50,14 @@ public class ProductProperty {
      * dp from
      */
     private String dpFrom;
+
+    public Integer getDpId() {
+        return dpId;
+    }
+
+    public void setDpId(Integer dpId) {
+        this.dpId = dpId;
+    }
 
     public String getDpCode() {
         return dpCode;
