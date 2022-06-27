@@ -22,6 +22,11 @@ public class AuthAccountRequest {
      */
     private String countryCode;
 
+    /**
+     * password, md5(your password), lowercase, 32 digits
+     */
+    private String password;
+
     public String getUsername() {
         return username;
     }
@@ -44,5 +49,13 @@ public class AuthAccountRequest {
 
     public void setCountryCode(String countryCode) {
         this.countryCode = countryCode;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

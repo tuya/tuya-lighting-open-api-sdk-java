@@ -10,27 +10,9 @@ import com.tuya.lighting.open.api.domain.PageQuery;
 public class AccountListRequest extends PageQuery {
 
     /**
-     * uid
-     */
-    private String uid;
-
-    /**
      * login name
      */
     private String loginName;
-
-    /**
-     * nickname
-     */
-    private String nickName;
-
-    public String getUid() {
-        return uid;
-    }
-
-    public void setUid(String uid) {
-        this.uid = uid;
-    }
 
     public String getLoginName() {
         return loginName;
@@ -40,11 +22,4 @@ public class AccountListRequest extends PageQuery {
         this.loginName = loginName;
     }
 
-    public String getNickName() {
-        return nickName;
-    }
-
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
-    }
 }

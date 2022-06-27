@@ -63,6 +63,11 @@ public class DeviceDetailResult {
     private String productId;
 
     /**
+     * project id
+     */
+    private String projectId;
+
+    /**
      * room id
      */
     private String roomId;
@@ -228,6 +233,14 @@ public class DeviceDetailResult {
 
     public void setProductId(String productId) {
         this.productId = productId;
+    }
+
+    public String getProjectId() {
+        return projectId;
+    }
+
+    public void setProjectId(String projectId) {
+        this.projectId = projectId;
     }
 
     public String getRoomId() {
